@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <toPaymentProxy xmlns="webservice.ppbalancing.sinosoft.com">
+            <arg0 xmlns="">
+                <ns1:backing xmlns:ns1="http://dto.webservice.ppbalancing.sinosoft.com">false</ns1:backing>
+                <ns2:businessNo xmlns:ns2="http://dto.webservice.ppbalancing.sinosoft.com">
+                    4cb7e44cb738448f9cca1db76ca32e18
+                </ns2:businessNo>
+                <ns3:cardNo xmlns:ns3="http://dto.webservice.ppbalancing.sinosoft.com">20130009000000000010</ns3:cardNo>
+                <ns4:createTime xmlns:ns4="http://dto.webservice.ppbalancing.sinosoft.com">2014-12-17T10:17:21.000Z
+                </ns4:createTime>
+                <ns5:dealAmount xmlns:ns5="http://dto.webservice.ppbalancing.sinosoft.com">111.0</ns5:dealAmount>
+                <ns6:dealNo xmlns:ns6="http://dto.webservice.ppbalancing.sinosoft.com">f5b1496c752d4a7792e73cb6bd9e104f
+                </ns6:dealNo>
+                <ns7:dealSys xmlns:ns7="http://dto.webservice.ppbalancing.sinosoft.com">Prpall</ns7:dealSys>
+                <ns8:dealTime xmlns:ns8="http://dto.webservice.ppbalancing.sinosoft.com">2014-12-17T10:17:21.000Z
+                </ns8:dealTime>
+                <ns9:dealType xmlns:ns9="http://dto.webservice.ppbalancing.sinosoft.com">00</ns9:dealType>
+                <ns10:insureTime xmlns:ns10="http://dto.webservice.ppbalancing.sinosoft.com">2014-12-17T10:17:21.000Z
+                </ns10:insureTime>
+                <ns11:issueOrg xmlns:ns11="http://dto.webservice.ppbalancing.sinosoft.com">320501</ns11:issueOrg>
+                <ns12:issueUser xmlns:ns12="http://dto.webservice.ppbalancing.sinosoft.com">320501001</ns12:issueUser>
+                <ns13:operateType xmlns:ns13="http://dto.webservice.ppbalancing.sinosoft.com">01</ns13:operateType>
+                <ns14:respNum xmlns:ns14="http://dto.webservice.ppbalancing.sinosoft.com">0</ns14:respNum>
+                <ns15:respStatus xmlns:ns15="http://dto.webservice.ppbalancing.sinosoft.com">0</ns15:respStatus>
+            </arg0>
+            <arg1 xmlns="">
+                <ns16:accountCode xmlns:ns16="http://model.balancing.ppbalancing.sinosoft.com">Prpall</ns16:accountCode>
+                <ns17:dealNo xmlns:ns17="http://model.balancing.ppbalancing.sinosoft.com">
+                    f5b1496c752d4a7792e73cb6bd9e104f
+                </ns17:dealNo>
+                <ns18:dealSys xmlns:ns18="http://model.balancing.ppbalancing.sinosoft.com">Prpall</ns18:dealSys>
+                <ns19:inputCharset xmlns:ns19="http://model.balancing.ppbalancing.sinosoft.com">1</ns19:inputCharset>
+                <ns20:insureNo xmlns:ns20="http://model.balancing.ppbalancing.sinosoft.com">
+                    4cb7e44cb738448f9cca1db76ca32e18
+                </ns20:insureNo>
+                <ns21:insureTime xmlns:ns21="http://model.balancing.ppbalancing.sinosoft.com">20141217181721
+                </ns21:insureTime>
+                <ns22:issueOrg xmlns:ns22="http://model.balancing.ppbalancing.sinosoft.com">320501</ns22:issueOrg>
+                <ns23:issueUser xmlns:ns23="http://model.balancing.ppbalancing.sinosoft.com">320501001</ns23:issueUser>
+                <ns24:maxAmount xmlns:ns24="http://model.balancing.ppbalancing.sinosoft.com">2000.0</ns24:maxAmount>
+                <ns25:operateType xmlns:ns25="http://model.balancing.ppbalancing.sinosoft.com">01</ns25:operateType>
+                <ns26:payAmount xmlns:ns26="http://model.balancing.ppbalancing.sinosoft.com">2000.0</ns26:payAmount>
+            </arg1>
+            <arg2 xmlns="">
+                <ns27:cardAmount xmlns:ns27="http://model.balancing.ppbalancing.sinosoft.com">8000</ns27:cardAmount>
+                <ns28:cardNo xmlns:ns28="http://model.balancing.ppbalancing.sinosoft.com">20130009000000000010
+                </ns28:cardNo>
+                <ns29:cardOverage xmlns:ns29="http://model.balancing.ppbalancing.sinosoft.com">5889</ns29:cardOverage>
+                <ns30:cardOwner xmlns:ns30="http://model.balancing.ppbalancing.sinosoft.com">77</ns30:cardOwner>
+                <ns31:cardType xmlns:ns31="http://model.balancing.ppbalancing.sinosoft.com">10001</ns31:cardType>
+                <ns32:createTime xmlns:ns32="http://model.balancing.ppbalancing.sinosoft.com">2013-10-28T16:00:00.000Z
+                </ns32:createTime>
+                <ns33:orgCode xmlns:ns33="http://model.balancing.ppbalancing.sinosoft.com">320501</ns33:orgCode>
+                <ns34:password xmlns:ns34="http://model.balancing.ppbalancing.sinosoft.com">
+                    3D4F2BF07DC1BE38B20CD6E46949A1071F9D0E3D
+                </ns34:password>
+                <ns35:saleCode xmlns:ns35="http://model.balancing.ppbalancing.sinosoft.com">2222222222204
+                </ns35:saleCode>
+                <ns36:status xmlns:ns36="http://model.balancing.ppbalancing.sinosoft.com">01</ns36:status>
+                <ns37:sysCode xmlns:ns37="http://model.balancing.ppbalancing.sinosoft.com">Icard</ns37:sysCode>
+            </arg2>
+            <arg3 xmlns="">111.0</arg3>
+        </toPaymentProxy>
+    </soapenv:Body>
+</soapenv:Envelope>
